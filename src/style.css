@@ -1,0 +1,26 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.htmlScreen iframe {
+    height: 800px;
+    border: none;
+    background: #000;
+    overflow-y: scroll;
+    touch-action: touch;
+}
+
+canvas {
+    touch-action: touch;
+}
+
+.custom-cursor {
+    cursor: pointer;
+}
